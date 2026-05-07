@@ -1,0 +1,115 @@
+extends ../layouts/default.pug
+
+block title 
+  title Tổng quan
+
+block main
+  .box-title Tổng quan
+
+  //- Section 1
+  .section-1 
+    .inner-item 
+      .inner-icon.green
+        <i class="fa-solid fa-graduation-cap"></i>
+      .inner-text 
+        .inner-title Dự kiến tốt nghiệp đúng hạn
+        .inner-number 2.450
+        .inner-note Chiếm 68% tổng sinh viên khóa
+    .inner-item 
+      .inner-icon.yellow
+        <i class="fa-solid fa-hourglass-half"></i>
+      .inner-text 
+        .inner-title Nguy cơ trễ tiến độ tốt nghiệp
+        .inner-number 850
+        .inner-note Chiếm 18% tổng sinh viên khóa
+    .inner-item 
+      .inner-icon.purple
+        <i class="fa-solid fa-rocket"></i>
+      .inner-text 
+        .inner-title Tốt nghiệp sớm
+        .inner-number 120
+        .inner-note Chiếm 3% tổng sinh viên khóa
+    .inner-item 
+      .inner-icon.grey
+        <i class="fa-solid fa-shield"></i>
+      .inner-text 
+        .inner-title Chưa đủ điều kiện tốt nghiệp
+        .inner-number 450
+        .inner-note Đã tích lũy đủ số tín chỉ chuyên ngành
+  //- End Section 1
+
+  //- Section 2
+  .section-2
+    .inner-chart-box 
+      .inner-head 
+        .inner-title Thống kê điểm GPA trung bình qua các học kỳ
+      .inner-chart 
+        | Vẽ biểu đồ ở đây ...
+    .inner-chart-box 
+      .inner-head 
+        .inner-title Tỷ lệ sinh viên theo tiến độ
+      .inner-chart 
+        | Vẽ biểu đồ ở đây ...
+    
+  //- End Section 2
+
+  //- Section 3
+  .section-3
+    .table-2 
+      table
+        thead 
+          tr 
+            th Trạng thái
+            th Thời gian
+            th Nội dung sự kiện
+            th Thao tác nhanh
+        tbody 
+          tr 
+            td
+              .severity.severity-red <i class="fa-solid fa-xmark"></i>
+            td 
+              .inner-time 20 phút trước
+            td
+              .inner-content Sinh viên Ronaldo (3122411001) vừa rơi vào danh sách cảnh báo học vụ mức độ 3 (buộc thôi học).
+            td
+              .box-actions 
+                a(href="#" class="inner-detail") Xem chi tiết
+                a(href="#" class="inner-send-mail") Gửi email nhắc nhở
+                a(href="#" class="inner-skip") Bỏ qua
+          tr 
+            td
+              .severity.severity-yellow <i class="fa-solid fa-triangle-exclamation"></i>
+            td 
+              .inner-time 1 giờ trước
+            td
+              .inner-content Sinh viên Neymar (3122411002) đang có tiến độ tích lũy tín chỉ chậm hơn 15% so với kế hoạch dự kiến tốt nghiệp.
+            td
+              .box-actions 
+                a(href="#" class="inner-detail") Xem chi tiết
+                a(href="#" class="inner-send-mail") Gửi email nhắc nhở
+                a(href="#" class="inner-skip") Bỏ qua
+          tr 
+            td
+              .severity.severity-green <i class="fa-solid fa-check"></i>
+            td 
+              .inner-time 12 giờ trước
+            td
+              .inner-content Sinh viên Messi (3122411003) vừa tích lũy đủ 100% tín chỉ, đủ điều kiện đưa vào danh sách xét tốt nghiệp.
+            td
+              .box-actions 
+                a(href="#" class="inner-detail") Xem chi tiết
+                a(href="#" class="inner-send-mail") Gửi email nhắc nhở
+                a(href="#" class="inner-skip") Bỏ qua
+          tr 
+            td
+              .severity.severity-blue <i class="fa-solid fa-rotate"></i>
+            td 
+              .inner-time 1 ngày trước
+            td
+              .inner-content Admin khác vừa thêm một môn học mới vào hệ thống.
+            td
+              .box-actions 
+                a(href="#" class="inner-detail") Xem chi tiết
+                a(href="#" class="inner-send-mail") Gửi email nhắc nhở
+                a(href="#" class="inner-skip") Bỏ qua
+  //- End Section 3

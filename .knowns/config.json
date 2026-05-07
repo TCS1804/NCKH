@@ -1,0 +1,46 @@
+{
+  "name": "nckh",
+  "id": "nckh",
+  "createdAt": "2026-05-05T06:45:31.927366Z",
+  "settings": {
+    "defaultPriority": "medium",
+    "gitTrackingMode": "git-ignored",
+    "statuses": [
+      "todo",
+      "in-progress",
+      "in-review",
+      "done",
+      "blocked",
+      "on-hold",
+      "urgent"
+    ],
+    "statusColors": {
+      "blocked": "red",
+      "done": "green",
+      "in-progress": "blue",
+      "in-review": "purple",
+      "on-hold": "yellow",
+      "todo": "gray",
+      "urgent": "orange"
+    },
+    "visibleColumns": [
+      "todo",
+      "in-progress",
+      "blocked",
+      "done",
+      "in-review"
+    ],
+    "semanticSearch": {
+      "enabled": true,
+      "model": "gte-base",
+      "huggingFaceId": "Xenova/gte-base",
+      "dimensions": 768,
+      "maxTokens": 512
+    },
+    "platforms": [
+      "antigravity",
+      "opencode"
+    ],
+    "enableChatUI": true
+  }
+}

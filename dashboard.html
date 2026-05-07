@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tổng quan</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  </head>
+  <body>
+    <header class="header"><a class="inner-logo" href="#">Admin</a>
+      <div class="inner-wrap"> 
+        <div class="inner-notify"> <img src="assets/images/icon-bell.svg" alt=""><span>10</span></div>
+        <div class="inner-account"> <img src="assets/images/messi.jpg" alt="">
+          <div class="inner-text"> 
+            <div class="inner-name">Lionel Messi</div>
+            <div class="inner-role">Admin</div>
+          </div>
+        </div>
+        <button class="inner-button-menu">
+           <i class="fa-solid fa-bars"></i></button>
+      </div>
+    </header>
+    <nav class="sider">
+      <ul class="inner-menu"> 
+        <li> <a href="dashboard.html"><i class="fa-solid fa-archway"></i> Tổng quan</a></li>
+        <li> <a href="learning-progress.html"><i class="fa-solid fa-gauge-high"></i> Theo dõi tiến độ học tập</a></li>
+        <li> <a href="expected-graduate.html"><i class="fa-solid fa-user-graduate"></i> Dự kiến tốt nghiệp</a></li>
+        <li> <a href="missing-subjects.html"><i class="fa-solid fa-book-open"></i> Các môn học còn thiếu</a></li>
+        <li> <a href="predict-grade.html"><i class="fa-solid fa-lightbulb"></i> Dự đoán điểm</a></li>
+        <hr>
+        <ul class="inner-menu"></ul>
+        <li> <a class="inner-logout" href="#"><i class="fa-solid fa-power-off"></i> Đăng xuất</a></li>
+      </ul>
+    </nav>
+    <main class="main">
+      <div class="box-title">Tổng quan</div>
+      <div class="section-1"> 
+        <div class="inner-item"> 
+          <div class="inner-icon green"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="inner-text"> 
+            <div class="inner-title">Dự kiến tốt nghiệp đúng hạn</div>
+            <div class="inner-number">2.450</div>
+            <div class="inner-note">Chiếm 68% tổng sinh viên khóa</div>
+          </div>
+        </div>
+        <div class="inner-item"> 
+          <div class="inner-icon yellow"><i class="fa-solid fa-hourglass-half"></i></div>
+          <div class="inner-text"> 
+            <div class="inner-title">Nguy cơ trễ tiến độ tốt nghiệp</div>
+            <div class="inner-number">850</div>
+            <div class="inner-note">Chiếm 18% tổng sinh viên khóa</div>
+          </div>
+        </div>
+        <div class="inner-item"> 
+          <div class="inner-icon purple"><i class="fa-solid fa-rocket"></i></div>
+          <div class="inner-text"> 
+            <div class="inner-title">Tốt nghiệp sớm</div>
+            <div class="inner-number">120</div>
+            <div class="inner-note">Chiếm 3% tổng sinh viên khóa</div>
+          </div>
+        </div>
+        <div class="inner-item"> 
+          <div class="inner-icon grey"><i class="fa-solid fa-shield"></i></div>
+          <div class="inner-text"> 
+            <div class="inner-title">Chưa đủ điều kiện tốt nghiệp</div>
+            <div class="inner-number">450</div>
+            <div class="inner-note">Đã tích lũy đủ số tín chỉ chuyên ngành</div>
+          </div>
+        </div>
+      </div>
+      <div class="section-2">
+        <div class="inner-chart-box"> 
+          <div class="inner-head"> 
+            <div class="inner-title">Thống kê điểm GPA trung bình qua các học kỳ</div>
+          </div>
+          <div class="inner-chart">
+             Vẽ biểu đồ ở đây ...</div>
+        </div>
+        <div class="inner-chart-box"> 
+          <div class="inner-head"> 
+            <div class="inner-title">Tỷ lệ sinh viên theo tiến độ</div>
+          </div>
+          <div class="inner-chart">
+             Vẽ biểu đồ ở đây ...</div>
+        </div>
+      </div>
+      <div class="section-3">
+        <div class="table-2"> 
+          <table>
+            <thead> 
+              <tr> 
+                <th>Trạng thái</th>
+                <th>Thời gian</th>
+                <th>Nội dung sự kiện</th>
+                <th>Thao tác nhanh</th>
+              </tr>
+            </thead>
+            <tbody> 
+              <tr> 
+                <td>
+                  <div class="severity severity-red"><i class="fa-solid fa-xmark"></i></div>
+                </td>
+                <td> 
+                  <div class="inner-time">20 phút trước</div>
+                </td>
+                <td>
+                  <div class="inner-content">Sinh viên Ronaldo (3122411001) vừa rơi vào danh sách cảnh báo học vụ mức độ 3 (buộc thôi học).</div>
+                </td>
+                <td>
+                  <div class="box-actions"> <a class="inner-detail" href="#">Xem chi tiết</a><a class="inner-send-mail" href="#">Gửi email nhắc nhở</a><a class="inner-skip" href="#">Bỏ qua</a></div>
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <div class="severity severity-yellow"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                </td>
+                <td> 
+                  <div class="inner-time">1 giờ trước</div>
+                </td>
+                <td>
+                  <div class="inner-content">Sinh viên Neymar (3122411002) đang có tiến độ tích lũy tín chỉ chậm hơn 15% so với kế hoạch dự kiến tốt nghiệp.</div>
+                </td>
+                <td>
+                  <div class="box-actions"> <a class="inner-detail" href="#">Xem chi tiết</a><a class="inner-send-mail" href="#">Gửi email nhắc nhở</a><a class="inner-skip" href="#">Bỏ qua</a></div>
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <div class="severity severity-green"><i class="fa-solid fa-check"></i></div>
+                </td>
+                <td> 
+                  <div class="inner-time">12 giờ trước</div>
+                </td>
+                <td>
+                  <div class="inner-content">Sinh viên Messi (3122411003) vừa tích lũy đủ 100% tín chỉ, đủ điều kiện đưa vào danh sách xét tốt nghiệp.</div>
+                </td>
+                <td>
+                  <div class="box-actions"> <a class="inner-detail" href="#">Xem chi tiết</a><a class="inner-send-mail" href="#">Gửi email nhắc nhở</a><a class="inner-skip" href="#">Bỏ qua</a></div>
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <div class="severity severity-blue"><i class="fa-solid fa-rotate"></i></div>
+                </td>
+                <td> 
+                  <div class="inner-time">1 ngày trước</div>
+                </td>
+                <td>
+                  <div class="inner-content">Admin khác vừa thêm một môn học mới vào hệ thống.</div>
+                </td>
+                <td>
+                  <div class="box-actions"> <a class="inner-detail" href="#">Xem chi tiết</a><a class="inner-send-mail" href="#">Gửi email nhắc nhở</a><a class="inner-skip" href="#">Bỏ qua</a></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <script src="assets/js/script.js"> </script>
+  </body>
+</html>
